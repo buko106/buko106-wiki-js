@@ -1,0 +1,1 @@
+# buko106-wiki-js
