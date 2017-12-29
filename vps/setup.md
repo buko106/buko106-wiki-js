@@ -15,4 +15,16 @@
 	* rootでのログインを禁止
 * aptでnginxを導入
 * nを用いたnodeのバージョン管理を導入
-	* [UbuntuにNode.jsをインストールするベストプラクティス](http://kamatte.me/2017/08/17/ubuntu%E3%81%ABnode-js%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E3%83%99%E3%82%B9%E3%83%88%E3%83%97%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%82%B9/)
+[UbuntuにNode.jsをインストールするベストプラクティス](http://kamatte.me/2017/08/17/ubuntu%E3%81%ABnode-js%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E3%83%99%E3%82%B9%E3%83%88%E3%83%97%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%82%B9/)
+
+## ドメインの取得
+* お名前.com
+* [ここ](https://qiita.com/sugra511/items/3b05423d4adeeec5cdd4)を参考にネームサーバを変更
+	* サブドメインの追加も忘れずに
+	* 上の変更をしておけば、あとはVPS側での設定になる
+
+## WIki.jsを用いたWikiの公開
+* 公式に従うのみ https://docs.requarks.io/wiki#installation
+* SSHを使うのにhttpsのアドレスを書くありがちなミスを再発した(placeholderがhttpsだったのが悪い...)
+* リバースプロキシの設定が悪いと色々と動かない
+	* 普通にドキュメントに書いてあった https://docs.requarks.io/wiki/admin-guide/setup-nginx
