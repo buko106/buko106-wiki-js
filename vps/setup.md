@@ -28,3 +28,7 @@
 * SSHを使うのにhttpsのアドレスを書くありがちなミスを再発した(placeholderがhttpsだったのが悪い...)
 * リバースプロキシの設定が悪いと色々と動かない
 	* 普通にドキュメントに書いてあった https://docs.requarks.io/wiki/admin-guide/setup-nginx
+
+## TODO
+* ポート開放の自前化
+* SSLの導入
