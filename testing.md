@@ -2,4 +2,4 @@
 <!-- SUBTITLE: testing page -->
 
 # 数式
-$$ \lim $$
+$$ \lim_{x \to 0 } \frac{\sin x}{x} = 1$$
