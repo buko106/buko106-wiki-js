@@ -2,4 +2,4 @@
 <!-- SUBTITLE: ようこそ -->
 
 # buko106's Wiki
-Twitter: [@buko106](twitter.com/buko106)
+Twitter: [@buko106](https://twitter.com/buko106)
