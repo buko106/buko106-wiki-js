@@ -8,5 +8,9 @@
 # リンク
 Twitter: [@buko106](https://twitter.com/buko106)
 
+# このページについて
+このページは[Wiki.js](https://wiki.js.org/)で作成されています。
+デプロイまでのフローを[ここ](vps/setup)にまとめました。
+
 # その他
 テストページへのリンク: [テスト](testing)
