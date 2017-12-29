@@ -1,6 +1,12 @@
-<!-- TITLE: Home -->
-<!-- SUBTITLE: ようこそ -->
+<!-- TITLE: buko106's wiki -->
+<!-- SUBTITLE: buko106's wiki へようこそ -->
 
-# buko106's Wiki
+# 自己紹介
+## 経歴
+> todo
+
+# リンク
 Twitter: [@buko106](https://twitter.com/buko106)
+
+# その他
 テストページへのリンク: [テスト](testing)
