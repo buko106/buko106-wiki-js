@@ -27,8 +27,9 @@
 * 公式に従うのみ https://docs.requarks.io/wiki#installation
 * SSHを使うのにhttpsのアドレスを書くありがちなミスを再発した(placeholderがhttpsだったのが悪い...)
 * リバースプロキシの設定が悪いと色々と動かない
+	* バージョン1.xではサブディレクトリではWiki.jsが動かないのでサブドメインを使わないといけない
 	* 普通にドキュメントに書いてあった https://docs.requarks.io/wiki/admin-guide/setup-nginx
 
 ## TODO
 * ポート開放の自前化
-* SSLの導入
+* SSLの導入(Let's Encrypt)
