@@ -1,4 +1,4 @@
 <!-- TITLE: Home -->
-<!-- SUBTITLE: A quick summary of Home -->
+<!-- SUBTITLE: ようこそ -->
 
-# ようこそ
+# buko106's Wiki
