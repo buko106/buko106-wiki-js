@@ -2,4 +2,4 @@
 <!-- SUBTITLE: testing page -->
 
 # テストページへのリンク
-[数式のテストページ](testiong/math)
+[数式のテストページ](testing/math)
