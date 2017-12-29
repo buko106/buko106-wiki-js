@@ -6,7 +6,7 @@
 > todo
 
 # リンク
-Twitter: [@buko106](https://twitter.com/buko106)
+Twitter: [@buko106](https://twitter.com/buko106) ![Cwaxl 0 Mx 400 X 400](/uploads/cwaxl-0-mx-400-x-400.png "Cwaxl 0 Mx 400 X 400"){.align-right}
 Github: [buko106](https://github.com/buko106/)
 
 # このページについて
