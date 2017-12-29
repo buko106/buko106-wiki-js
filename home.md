@@ -3,7 +3,7 @@
 
 # 自己紹介
 ## 経歴
-> todo
+* todo
 
 # リンク
 Twitter: [@buko106](https://twitter.com/buko106)
