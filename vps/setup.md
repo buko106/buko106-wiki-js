@@ -31,5 +31,5 @@
 	* 普通にドキュメントに書いてあった https://docs.requarks.io/wiki/admin-guide/setup-nginx
 
 ## TODO
-* ポート開放の自前化
+* ポート開放の自前化(Ubuntuなのでufwを使う?)
 * SSLの導入(Let's Encrypt)
