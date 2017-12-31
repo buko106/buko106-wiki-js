@@ -30,6 +30,23 @@
 	* バージョン1.xではサブディレクトリではWiki.jsが動かないのでサブドメインを使わないといけない
 	* 普通にドキュメントに書いてあった https://docs.requarks.io/wiki/admin-guide/setup-nginx
 
+## ポートの設定
+* ConoHaのコンソールで全てのポートを開放(これをしないとVPSに届く前にブロックされる)
+* sshのポートの変更
+	* /etc/ssh/sshd_configのPortをxyzに書き換え
+	* `sudo service ssh restart`
+	* `ssh`するときは`-p xyz`
+		* `scp`するときは`-P xyz`
+* ufwを設定
+
+```powershell
+sudo ufw allow xyz
+sudo ufw allow 80
+sudo ufw allow 443
+sudo ufw enable
+```
+などなど
+
 ## TODO
-* ポート開放の自前化(Ubuntuなのでufwを使う?)
+* ~~ポート開放の自前化(Ubuntuなのでufwを使う?)~~
 * SSLの導入(Let's Encrypt)
