@@ -3,3 +3,4 @@
 
 # テストページへのリンク
 [数式のテストページ](testing/math)
+[再起動時やること](testing/reboot)
