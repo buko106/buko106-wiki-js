@@ -51,3 +51,4 @@ sudo ufw enable
 * ~~ポート開放の自前化(Ubuntuなのでufwを使う?)~~
 * SSLの導入(Let's Encrypt)
 * Wiki.jsサーバの自動起動・永続化
+* Nodeで動くサーバをDocker化
