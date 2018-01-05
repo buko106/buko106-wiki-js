@@ -7,7 +7,7 @@
 
 # リンク
 * Twitter: [@buko106](https://twitter.com/buko106)
-* Github: [buko106](https://github.com/buko106/)
+* GitHub: [buko106](https://github.com/buko106/)
 
 # このページについて
 このページは[Wiki.js](https://wiki.js.org/)で作成されています。発展途中のWikiエンジンっぽいので見守りながら使っていこうと思います。
