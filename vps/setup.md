@@ -3,8 +3,10 @@
 
 # VPSのセットアップ
 ## VPSの契約
-* [ConoHa](https://www.conoha.jp/)の1GBプランを借りています。
-* プリペイドなので払いすぎる心配なし。
+* ~~[ConoHa](https://www.conoha.jp/)の1GBプランを借りています。~~
+* AWSのEC2に移行しました
+* ~~プリペイドなので払いすぎる心配なし。~~
+* クレジットカード登録してあるので注意。特に、[APIキーの流出が怖い](https://matome.naver.jp/odai/2150522980097622601)
 
 ## VPSの初期設定
 * Ubuntu 16.04 をインストール
@@ -12,7 +14,7 @@
 	* 作業用ユーザの作成
 		* 公開鍵アップロード
 		* sudoグループに登録
-	* rootでのログインを禁止
+	* rootでのログインを禁止 (EC2のインスタンスではデフォルトでキーペアでのみrootに入れる)
 * aptでnginxを導入
 * nを用いたnodeのバージョン管理を導入
 [UbuntuにNode.jsをインストールするベストプラクティス](http://kamatte.me/2017/08/17/ubuntu%E3%81%ABnode-js%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E3%83%99%E3%82%B9%E3%83%88%E3%83%97%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%82%B9/)
@@ -26,7 +28,7 @@
 ## WIki.jsを用いたWikiの公開
 * 公式に従うのみ https://docs.requarks.io/wiki#installation
 * SSHを使うのにhttpsのアドレスを書くありがちなミスを再発した(placeholderがhttpsだったのが悪い...)
-* リバースプロキシの設定が悪いと色々と動かない
+* リバースプロキシの設定が悪いと色々と動かない [設定例](vps/nginx)
 	* バージョン1.xではサブディレクトリではWiki.jsが動かないのでサブドメインを使わないといけない
 	* 普通にドキュメントに書いてあった https://docs.requarks.io/wiki/admin-guide/setup-nginx
 
