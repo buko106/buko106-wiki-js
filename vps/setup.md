@@ -49,6 +49,7 @@ sudo ufw enable
 ```
 などなど
 
+* EC2では、セキュリティグループを設定することでもポートを開け閉めできる
 ## TODO
 * ~~ポート開放の自前化(Ubuntuなのでufwを使う?)~~
 * SSLの導入(Let's Encrypt)
