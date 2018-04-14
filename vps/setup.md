@@ -28,7 +28,7 @@
 ## WIki.jsを用いたWikiの公開
 * 公式に従うのみ https://docs.requarks.io/wiki#installation
 * SSHを使うのにhttpsのアドレスを書くありがちなミスを再発した(placeholderがhttpsだったのが悪い...)
-* リバースプロキシの設定が悪いと色々と動かない [設定例](vps/nginx)
+* リバースプロキシの設定が悪いと色々と動かない [設定例](./nginx)
 	* バージョン1.xではサブディレクトリではWiki.jsが動かないのでサブドメインを使わないといけない
 	* 普通にドキュメントに書いてあった https://docs.requarks.io/wiki/admin-guide/setup-nginx
 
